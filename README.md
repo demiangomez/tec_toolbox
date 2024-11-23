@@ -8,10 +8,10 @@ Part of the RINEX reader and orbit determination are modified from PPPH by Berka
 
 To use it, add the folder to your Matlab path. Create an ini file with the following content:
 
->; variables that work in all fields are: 
+>; variables that work in all fields are:
 >; {ustation} : uppercase 4 or 9 character station name
 >; {lstation} : lowercase 4 or 9 character station name
->; {year}     : 4 digit year 
+>; {year}     : 4 digit year
 >; {doy}      : day of year
 >; {month}    : month of the year
 >; {day}      : day of the month 
