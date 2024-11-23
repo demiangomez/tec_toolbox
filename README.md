@@ -2,13 +2,13 @@
 ## A Matlab toolbox to to process GNSS data to obtain total electron content (TEC) and perform FK analysis
 ### Author: Demián D. Gómez
 ### This code is the realization of the theory explain in 
-`Gómez, Demián, Robert Smalley, Charles A. Langston, Terry Wilson, Michael Bevis, Ian Dalziel, Eric Kendrick, et al. “Virtual Array Beamforming of GPS TEC Observations of Co-Seismic Ionospheric Disturbances near the Geomagnetic South Pole Triggered by Teleseismic Megathrusts.” Journal of Geophysical Research: Space Physics, January 1, 2015, 2015JA021725. https://doi.org/10.1002/2015JA021725.`
+``Gómez, Demián, Robert Smalley, Charles A. Langston, Terry Wilson, Michael Bevis, Ian Dalziel, Eric Kendrick, et al. “Virtual Array Beamforming of GPS TEC Observations of Co-Seismic Ionospheric Disturbances near the Geomagnetic South Pole Triggered by Teleseismic Megathrusts.” Journal of Geophysical Research: Space Physics, January 1, 2015, 2015JA021725. https://doi.org/10.1002/2015JA021725.``
 
 Part of the RINEX reader and orbit determination are modified from PPPH by Berkay Bahadur
 
 To use it, add the folder to your Matlab path. Create an ini file with the following content:
 
-`
+``
 ; variables that work in all fields are: 
 ; {ustation} : uppercase 4 or 9 character station name
 ; {lstation} : lowercase 4 or 9 character station name
@@ -43,6 +43,6 @@ polynomial = 7
 filter = 3.10,3.25
 ; If you have a model to detrend the data, specify here
 model = /home/demian/Dropbox/OSU/Projects/Eclipses/2020/Models/sami3_eclipse_121420_1deg.nc
-`
+``
 
-The execute 
+The execute the code, use the example called "run_tec.m"
